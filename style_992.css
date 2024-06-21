@@ -1,0 +1,57 @@
+@media  (max-width: 992px){
+    nav{
+        flex-direction: column;
+        margin: 0px 64px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger img{
+        width: 32px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-items{
+        flex-direction: column;
+        padding: 32px 0px;
+        align-items: center;
+        transition: all 0.2s ease-in-out 0.1s;
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+        background-color: black;
+       
+    }
+
+    .nav-items[data-menustyle="closed"] {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content{
+        padding: 0px 64px ;
+    }
+
+    .portfolio_box{
+        width: auto;
+        height: auto;
+    }
+
+
+}

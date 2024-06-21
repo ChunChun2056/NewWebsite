@@ -1,0 +1,58 @@
+@media  (max-width: 576px){
+    nav{
+        margin: 0 24px;
+        font-size: 13px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .hamburger img{
+        width: 24px;
+        height: auto;
+    }
+
+    .content {
+        padding: 0px 24px;
+    }
+
+    .content h1{
+        font-size: 40px;
+    }
+
+    .content p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .view_btn p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .portfolio_box{
+        width: 450px;
+        height: auto;
+    }
+
+    .content_port{
+        margin-top: -13vh;
+        gap: 72px;
+    }
+
+    .box_link p{
+        font-size: 18px;
+    }
+
+    .box_link img{
+        width: 18px;
+        height: auto;
+    }
+}
+
+@media  (max-width: 450px){
+    .portfolio_box{
+        width: 320px;
+    }
+}
